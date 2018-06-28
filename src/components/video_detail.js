@@ -16,7 +16,8 @@ const VideoDetail = ({video}) => {
                         msallowfullscreen="msallowfullscreen"
                         oallowfullscreen="oallowfullscreen"
                         webkitallowfullscreen="webkitallowfullscreen"
-                        className='embed-responsive-item' src={url}></iframe>
+                        className='embed-responsive-item' 
+                        src={url}></iframe>
             </div>
             <div className='details'>
                 <div>{video.snippet.title}</div>
